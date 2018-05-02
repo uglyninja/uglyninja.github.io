@@ -1,3 +1,3 @@
 function polskaWersja() {
-	window.open("index.html","_self")
+	window.open("polindex.html","_self")
 }
