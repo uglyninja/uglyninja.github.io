@@ -1,0 +1,20 @@
+<html>
+<script src="./src/js-php/localStorageCheck.js"></script>
+<script src="./src/js-php/clickCookie.js"></script>
+<head>
+<title>Clicker game by uglyninja</title>
+</head>
+<body>
+<script src="./src/js-php/background-change.js"></script>
+<center>
+<h2>Clicker Game</h2>
+<img width="200px" src="./src/images/cookie.png" onclick="clickCookie(1);"></img>
+<h2>Cookies:</h2>
+<h2 id="cookiecount" style="color:blue">0</h2>
+<button onclick="save()">Save Progress</button>
+<button onclick="load()">Load Progress</button>
+<button onclick="reset()">Reset (BEWARE!!!)</button>
+<script src="./src/js-php/saving.js"></script>
+</center>
+</body>
+</html>
